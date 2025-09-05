@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.doc(ドットドック) - パス付き資料の作成・共有サービス -</title>
+    <meta
+      name="description"
+      content=".doc(ドットドック)はパス付き資料の作成&共有が、ストレスなく、快適に行えるサービスです。"
+    />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon/webclickicon の設定 -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="webclip.png" />
+
+    <!-- ogpの設定(SNSでリンクを貼った時に表示される内容) -->
+    <meta property="og:site_name" content=".doc(ドットドック)" />
+    <meta property="og:title" content="パス付き資料の作成・共有サービス" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="URL" />
+    <meta property="og:image" content="URL" />
+    <meta
+      property="og:description"
+      content=".doc(ドットドック)はパス付き資料の作成&共有が、ストレスなく、快適に行えるサービスです。"
+    />
+    <meta property="og:locale" content="ja_JP" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- fonts の取得のために先に接続準備をしておく(これがあることで表示速度が上がる) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="l-container"> <!-- l-container は横幅や余白を制御する -->
+        <div class="header-inner"> <!-- header-inner でheader内の要素の並びや配置を制御する(つまり役割分担しているということ) -->
+          <h1 class="header-logo">
+            <a href="index.html">
+              <svg width="55" height="23" viewBox="0 0 55 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.609 18.254H3.868L3.259 21.695H0L0.609 18.254Z" fill="#4C566A"/>
+                <path d="M16.963 20.359C16.9101 20.4273 16.8486 20.4885 16.78 20.541C16.2642 21.0639 15.639 21.4659 14.9492 21.7182C14.2595 21.9705 13.5224 22.0667 12.791 22C9.25799 22 7.55298 20.481 7.55298 17.351C7.56723 16.4634 7.65891 15.5787 7.82698 14.707L8.22698 12.428C9.04898 7.809 10.907 5.956 14.714 5.956C15.8444 5.92029 16.9655 6.17107 17.973 6.685C18.1867 6.82055 18.3814 6.98399 18.552 7.171L18.796 7.353L20.101 0H23.207L19.37 21.7H16.964L16.963 20.359ZM10.872 14.92C10.7584 15.5007 10.6972 16.0904 10.689 16.682C10.689 18.566 11.572 19.508 13.4 19.508C15.623 19.508 16.9 18.171 17.39 15.375L17.877 12.575C17.9634 12.1129 18.0142 11.6449 18.029 11.175C18.0721 10.7997 18.0287 10.4195 17.9023 10.0635C17.7758 9.70756 17.5695 9.38526 17.2993 9.12129C17.029 8.85732 16.702 8.65868 16.3431 8.5406C15.9843 8.42251 15.6032 8.3881 15.229 8.44C13.006 8.44 11.788 9.84 11.209 13.028L10.872 14.92Z" fill="#4C566A"/>
+                <path d="M25.644 12.377C26.436 7.809 28.537 5.92 32.862 5.92C36.882 5.92 38.801 7.47299 38.801 10.732C38.7822 11.5593 38.7007 12.384 38.557 13.199L38.131 15.544C37.339 20.112 35.207 22.001 30.913 22.001C26.893 22.001 24.974 20.417 24.974 17.159C24.9902 16.3517 25.0718 15.5471 25.218 14.753L25.644 12.377ZM35.481 12.986C35.5935 12.3924 35.6547 11.7901 35.664 11.186C35.664 9.328 34.689 8.415 32.74 8.415C30.395 8.415 29.207 9.755 28.629 12.983L28.294 14.932C28.1804 15.514 28.1192 16.105 28.111 16.698C28.111 18.586 29.055 19.498 31.035 19.498C33.38 19.498 34.568 18.158 35.146 14.93L35.481 12.986Z" fill="#4C566A"/>
+                <path d="M53.3881 19.62C52.7116 20.4266 51.8544 21.0622 50.886 21.4751C49.9176 21.888 48.8654 22.0664 47.8151 21.996C44.1601 21.996 42.181 20.169 42.181 16.819C42.2071 15.9 42.2988 14.984 42.4551 14.078L42.6381 12.951C43.0951 10.423 43.643 9.083 44.709 7.926C45.3448 7.24855 46.1209 6.71807 46.9829 6.37159C47.845 6.02511 48.7723 5.87099 49.7001 5.92001C52.4711 5.92001 54.2071 6.925 55.0001 8.966L52.472 9.97101C52.245 9.45702 51.8595 9.02908 51.3719 8.74969C50.8844 8.47029 50.3203 8.35408 49.762 8.41801C47.539 8.41801 46.29 9.91001 45.681 13.291L45.4371 14.722C45.3412 15.3059 45.2904 15.8963 45.285 16.488C45.285 18.529 46.1991 19.503 48.1481 19.503C48.7687 19.526 49.3858 19.3996 49.9475 19.1346C50.5092 18.8696 50.9991 18.4736 51.376 17.98L53.3881 19.62Z" fill="#4C566A"/>
+              </svg>
+            </a>
+            <span class="u-visually-hidden">ドットドック</span> <!-- u-visually-hidden クラスを付与して文字が画面に表示されないようにしている。SEO的にh1タグがサイトのタイトルとして読まれるので、文字情報として存在させるために書く。 -->
+            <!-- u とは utility(公共のみたいな意味でプロジェクト全体で使える機能を表すときにつける) -->
+            <!-- visually-hidden とは視覚的に隠すがスクリーンリーダーには読ませるという意味。display:none; はスクリーンリーダーにも読まれない。 -->
+          </h1>
+          <button class="c-button">登録/ログイン</button> <!-- c は component という意味で、再利用できるようなボタンのclassにするという意味。-->
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="top-kv">
+        <div class="l-container">
+          <div class="top-kv-inner">
+            <div class="top-kv-img">
+              <img src="img/top-kv-illustration.svg" alt="トップ画像">
+            </div>
+            <div class="top-kv-text">
+              <p class="top-kv-copy">さくっと、パス付き資料の作成&共有</p>
+              <ul class="top-kv-list">
+                <li class="top-kv-item">ストレスなくサクサク書ける</li>
+                <li class="top-kv-item">ドキュメントはパス付きで共有可能</li>
+                <li class="top-kv-item">ベータ版の期間は完全無料</li>
+              </ul>
+              <div class="top-kv-button">
+                <button class="c-button c-button--arrow">登録する</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-kv-wave-buttom-svg">
+        <svg width="1366" height="211" viewBox="0 0 1366 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 182.4L45.5333 187.435C91.0667 192.85 182.133 202.35 273.2 207.765C364.267 212.8 455.333 212.8 546.4 192.565C637.467 171.95 728.533 132.05 819.6 116.565C910.667 101.65 1001.73 111.15 1092.8 106.4C1183.87 101.65 1274.93 80.75 1320.47 70.965L1366 60.8V0H1320.47C1274.93 0 1183.87 0 1092.8 0C1001.73 0 910.667 0 819.6 0C728.533 0 637.467 0 546.4 0C455.333 0 364.267 0 273.2 0C182.133 0 91.0667 0 45.5333 0H0V182.4Z" fill="#ECEFF4"/>
+        </svg>
+      </div>
+      <section class="top-feature">
+        <h2 class="c-title-level2 c-title-level2--center">快適さへのこだわり</h2>
+        <div class="top-feature-list">
+          <section class="top-feature-item">
+            <div class="top-feature-icon">
+              <img src="img/top-feature-icon.svg" alt="">
+            </div>
+            <div class="top-feature-title">
+              <h3 class="c-title-level3 c-title-level3--center">シンプルな機能</h3>
+            </div>
+            <p class="top-feature-description">多機能でない分、わかりやすく・使いやすい機能。書くこと、共有することにのみ特化。</p>
+          </section>
+          <section class="top-feature-item">
+            <div class="top-feature-icon">
+              <img src="img/top-feature-icon2.svg" alt="">
+            </div>
+            <div class="top-feature-title">
+              <h3 class="c-title-level3 c-title-level3--center">綺麗なドキュメント</h3>
+            </div>
+            <p class="top-feature-description">見やすいドキュメント、見やすい管理画面。シンプルでわかりやすいデザイン。</p>
+          </section>
+          <section class="top-feature-item">
+            <div class="top-feature-icon">
+              <img src="img/top-feature-icon3.svg" alt="">
+            </div>
+            <div class="top-feature-title">
+              <h3 class="c-title-level3 c-title-level3--center">書きやすいエディタ</h3>
+            </div>
+            <p class="top-feature-description">ドキュメント作成画面の装飾はショートカットを用意。慣れればサクサク。</p>
+          </section>
+        </div>
+      </section>
+      <div class="top-function-wave-top">
+        <svg width="1349" height="244" viewBox="0 0 1349 244" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 212.8L75.8889 187.435C151.778 162.45 303.556 111.15 455.333 96.235C607.111 80.75 758.889 101.65 910.667 91.2C1062.44 80.75 1214.22 40.85 1290.11 20.235L1366 0V243.2H1290.11C1214.22 243.2 1062.44 243.2 910.667 243.2C758.889 243.2 607.111 243.2 455.333 243.2C303.556 243.2 151.778 243.2 75.8889 243.2H0V212.8Z" fill="#2D3440"/>
+        </svg>
+      </div>
+      <section class="top-function">
+        <div class="l-container">
+          <h2 class="c-title-level2 c-title-level2--center c-title-level2--color-light">.docの機能</h2>
+          <div class="top-function-list">
+            <section class="top-function-item">
+              <img src="img/top-function-document.png" alt="">
+              <div class="top-function-desc-box">
+                <div class="top-function-title">
+                  <h3 class="c-title-level3 text-color-light">ドキュメント作成</h3>
+                </div>
+                <p class="top-function-description">装飾はボタンをワンクリック、もしくはショートカットキーで、綺麗に作成可能。</p>
+              </div>
+            </section>
+            <section class="top-function-item">
+              <img src="img/top-function-share.png" alt="">
+              <div class="top-function-desc-box">
+                <div class="top-function-title">
+                  <h3 class="c-title-level3 text-color-light">webページとして共有可能</h3>
+                </div>
+                <p class="top-function-description">パスワード付き共有 / 一般公開(URLを知っていれば閲覧可)/ 非公開の3つを用意。</p>
+              </div>
+            </section>
+            <section class="top-function-item">
+              <img src="img/top-function-tag.png" alt="">
+              <div class="top-function-desc-box">
+                <div class="top-function-title">
+                  <h3 class="c-title-level3 text-color-light">タグでドキュメントを管理</h3>
+                </div>
+                <p class="top-function-description">ドキュメントはタグ付けすることで、分類が可能。もちろん追加削除 / 複数指定も可能。</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <div class="top-function-wave-bottom">
+        <svg width="1349" height="106" viewBox="0 0 1349 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 91.0016L56.9167 80.881C113.833 71.1388 227.667 50.3301 341.5 55.7214C455.333 60.7344 569.167 91.0016 683 101.122C796.833 110.865 910.667 101.406 1024.5 91.0016C1138.33 80.5973 1252.17 71.1388 1309.08 65.7474L1366 60.7344V0.199951H1309.08C1252.17 0.199951 1138.33 0.199951 1024.5 0.199951C910.667 0.199951 796.833 0.199951 683 0.199951C569.167 0.199951 455.333 0.199951 341.5 0.199951C227.667 0.199951 113.833 0.199951 56.9167 0.199951H0V91.0016Z" fill="#2E3440"/>
+        </svg>
+      </div>
+    </main>
+    <footer>
+      <div class="l-container">
+        <div class="footer-inner">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="">トップ</a>
+            </li>
+            <li class="footer-item">
+              <a href="">利用規約</a>
+            </li>
+            <li class="footer-item">
+              <a href="">プライバシーポリシー</a>
+            </li>
+            <li class="footer-item">
+              <a href="">運営会社</a>
+            </li>
+          </ul>
+          <small class="footer-copyright">&copy; 2021 dot-doc inc.</small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
